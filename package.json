@@ -1,17 +1,29 @@
 {
-  "name": "mongodbtest",
+  "name": "app_test_with_mongodb",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "try mongo db",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximeTytgat/App_test_with_mongoDB.git"
+  },
+  "keywords": [
+    "dbb",
+    "test",
+    "try"
+  ],
+  "author": "Maxime TYTGAT",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mongodb": "^3.6.3",
-    "pug": "^3.0.0"
-  }
+  "bugs": {
+    "url": "https://github.com/MaximeTytgat/App_test_with_mongoDB/issues"
+  },
+  "homepage": "https://github.com/MaximeTytgat/App_test_with_mongoDB#readme"
 }
